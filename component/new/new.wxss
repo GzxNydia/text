@@ -1,0 +1,36 @@
+.newList{
+  /* width: 100%; */
+  border-bottom: 1rpx solid #666;
+  border-top: 1rpx solid #666;
+  padding: 20rpx;
+  display: flex;
+  margin-top: 20rpx;
+}
+.newList:last-child{
+  margin-bottom: 30rpx;
+}
+.newList .newLeft{
+  width: 140rpx;
+  padding-right: 20rpx;
+  flex: none;
+  border-right: 1rpx solid #999;
+  color: #999;
+  font-size: 30rpx;
+  text-align: center;
+}
+.newList .newLeft view{
+  font-size: 40rpx;
+  color: #333;
+  margin: 5rpx 0 10rpx 0;
+}
+.newList .newRight{
+  width: calc(100% - 200rpx);
+  padding-left: 20rpx;
+  color: #999;
+  font-size: 28rpx
+}
+.newTitle{
+  color: #333;
+  font-size: 32rpx;
+  margin-bottom: 10rpx;
+}

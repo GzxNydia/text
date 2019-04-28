@@ -1,0 +1,9 @@
+<!--pages/gcDetail/gcDetail.wxml-->
+<view class='box'>
+  <view class='title'>全景圆弧玻璃隔断</view>
+  <view class='time'>发布日期：2019-01-01 11:11:11</view>
+  <image src='{{img}}'></image>
+  <view class='content'>
+  苏宁电器徐庄总部Suning appliance XuZhuang headquarters
+  </view>
+</view>

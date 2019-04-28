@@ -1,0 +1,93 @@
+/* pages/lianxi/lianxi.wxss */
+.lianxi{
+  background: #fff;
+  min-height: 100%;
+  position: relative;
+}
+.taskBosTop{
+  margin-bottom: 20rpx;
+}
+.taskBosTop .nums{
+  height: 320rpx;
+  padding-top: 40rpx;
+  text-align: center;
+  font-size: 28rpx;
+  color: #fff;
+  background: #25B6A6;
+  border-radius: 0 0 30rpx 30rpx;
+  position: relative;
+  z-index: 4;
+}
+.taskBosTop .nums image{
+  width: 200rpx;
+  height: 200rpx;
+}
+.taskBosTop .nums text{
+  font-size: 58rpx;
+}
+.taskBosTop .nn2{
+  padding: 20rpx 0;
+  width: 94%;
+  margin: 0 auto;
+  background:#25B6A6;
+  border-radius: 0 0 60rpx 60rpx;
+  margin-top: -14rpx;
+  position: relative;
+  z-index: 3;
+  opacity: 0.4;
+}
+.taskBosTop .nn3{
+  padding: 20rpx 0;
+  width: 86%;
+  margin: 0 auto;
+  background: #25B6A6;
+  border-radius: 0 0 60rpx 60rpx;
+  margin-top: -14rpx;
+  position: relative;
+  z-index: 2;
+  opacity: 0.2;
+}
+.lianxiList{
+  padding-left: 100rpx;
+  margin: 20rpx;
+  font-size: 30rpx;
+  color: #999;
+  line-height: 60rpx;
+  position: relative;
+}
+.lianxiList1{
+ margin: 20rpx;
+  font-size: 30rpx;
+  color: #999;
+  line-height: 60rpx;
+  position: relative;
+}
+.lianxiList image{
+  width: 50rpx;
+  height: 50rpx;
+  position: absolute;
+  top: 0rpx;
+  left: 20rpx;
+}
+.lianxiList text{
+  font-size: 36rpx;
+  color: #333;
+  font-weight: 500;
+}
+.goods-tab-nav{
+    display: inline-block;
+    width: 33.33%;
+    height: 90rpx;
+    line-height: 90rpx;
+    border-bottom: 1rpx solid #ededed;
+    box-sizing: border-box;
+    text-align: center;
+    color: #c7c7cb;
+}
+.goods-tab-nav.on{
+    color: #25B6A6;
+    border-bottom: 5rpx solid #25B6A6;
+}
+.goods-content{
+    padding: 40rpx;
+}

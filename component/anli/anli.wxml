@@ -1,0 +1,6 @@
+<template name="anli">
+  <view class='messageList' wx:for="{{messageList}}" wx:key="{{index}}" catchtap='goDetail' data-id="{{item.id}}">
+    <image src='{{item.imgUrl}}'></image>
+    <view class='oneOver'>{{item.name}}</view>
+  </view>
+</template>

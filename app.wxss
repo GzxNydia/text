@@ -1,0 +1,41 @@
+/**app.wxss**/
+.messageTitle{
+  text-align: center;
+  width: 100%;
+  font-size: 36rpx;
+  color: #333;
+  font-weight: 500;
+  position: relative;
+}
+.messageTitle view:first-child{
+  position: absolute;
+  width: 100rpx;
+  height: 3rpx;
+  background: linear-gradient(to right, rgba(0,0,0,0.01), rgba(0,0,0,0.6));
+  left: 24%;
+  top: 26rpx;
+  z-index: 1;
+}
+.messageTitle view:last-child{
+  position: absolute;
+  width: 100rpx;
+  height: 3rpx;
+  background: linear-gradient(to left, rgba(0,0,0,0.01), rgba(0,0,0,0.6));
+  right: 24%;
+  top: 26rpx;
+  z-index: 1;
+}
+.oneOver{
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+}
+.twoOver{
+  text-overflow: -o-ellipsis-lastline;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+}

@@ -1,0 +1,12 @@
+<template name="new">
+  <view class='newList' wx:for="{{newList}}" wx:key="{{index}}" catchtap='goDetail2' data-id="{{item.id}}">
+    <view class='newLeft'>
+      <view>{{item.time}}</view>
+      <text>{{item.time2}}</text>
+    </view>
+    <view class='newRight'>
+      <view class='newTitle oneOver'>{{item.title}}</view>
+      <view class='newContent twoOver'>{{item.content}}</view>
+    </view>
+  </view>
+</template>

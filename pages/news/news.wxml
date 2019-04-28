@@ -1,0 +1,21 @@
+<!--pages/news/news.wxml-->
+<import src="/component/new/new.wxml" />
+<view class='home'>
+  <view class='swiperBBox'>
+    <view class='swiperBBoxBg'></view>
+    <view class='swiperBBoxContent'>
+      <swiper style='height:370rpx;' indicator-dots='{{true}}' indicator-active-color='#25B6A6' autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular='{{circular}}'>
+        <block wx:for="{{Imgs}}"  wx:key="{{index}}">
+          <swiper-item>
+            <image src="{{item}}" class="slide-image"/>
+          </swiper-item>
+        </block>
+      </swiper>
+    </view>
+  </view>
+  <view class='messageTitle'>
+    <view></view><text>新闻动态</text><view></view>
+  </view>
+  <template is="new" data="{{newList}}"></template>
+</view>
+

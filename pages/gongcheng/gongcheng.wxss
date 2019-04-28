@@ -1,0 +1,29 @@
+/* pages/gongcheng/gongcheng.wxss */
+@import "../../component/new/new.wxss";
+@import "../../component/anli/anli.wxss";
+.home{
+  width: 100%;
+  position: relative;
+}
+.swiperBBox{
+  width: 100%;
+  position: relative;
+  background: #fff;
+}
+.swiperBBoxContent{
+  width: 100%;
+  margin: 0 auto;
+  height: 370rpx;
+  /* border-radius: 40rpx; */
+  overflow: hidden;
+}
+.swiperBBoxContent image{
+  width: 100%;
+  height: 100%
+}
+.messageBox{
+  padding: 20rpx;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}

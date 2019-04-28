@@ -1,0 +1,22 @@
+<!--pages/gongcheng/gongcheng.wxml-->
+<import src="/component/anli/anli.wxml" />
+<view class='home'>
+  <view class='swiperBBox'>
+    <view class='swiperBBoxContent'>
+      <swiper style='height:370rpx;' indicator-dots='{{true}}' indicator-active-color='#25B6A6' autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular='{{circular}}'>
+        <block wx:for="{{Imgs}}"  wx:key="{{index}}">
+          <swiper-item>
+            <image src="{{item}}" class="slide-image"/>
+          </swiper-item>
+        </block>
+      </swiper>
+    </view>
+  </view>
+  <view class='messageBox'>
+    <view class='messageTitle'>
+      <view></view><text>工程案例</text><view></view>
+    </view>
+    <template is="anli" data="{{messageList}}"></template>
+    <view class='messageList' style=' opacity: 0;' wx:if="{{messageList.length>0&&messageList.length%2!==0}}"></view>
+  </view>
+</view>

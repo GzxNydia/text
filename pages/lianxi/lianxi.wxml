@@ -1,0 +1,83 @@
+<!--pages/lianxi/lianxi.wxml-->
+<view class='lianxi'>
+  <view class='taskBosTop'>
+    <view class='nums' catchtap='imgShow'>
+      <image src='{{img}}'></image>
+      <view>保存二维码</view>
+    </view>
+    <view class='nn2'></view>
+    <view class='nn3'></view>
+  </view>
+  <view class="goods-tab-box">
+    <view class="goods-tab-nav {{curIndex === 0 ?'on':''}}" bindtap="bindTap" data-index="0">联系我们</view>
+    <view class="goods-tab-nav {{curIndex === 1 ?'on':''}}" bindtap="bindTap" data-index="1">关于我们</view>
+    <view class="goods-tab-nav {{curIndex === 2 ?'on':''}}" bindtap="bindTap" data-index="2">人才招聘</view>
+    <view class="goods-content">
+      <view wx:if="{{curIndex === 0}}">
+        <view class='messageTitle'>
+          <view></view>
+          <text>联系我们</text>
+          <view></view>
+        </view>
+        <view class='lianxiList' bindtap="phoneCall" data-phone="{{number}}">
+          <image src='../../images/phone.png'></image>
+          <text>全国统一免费热线：</text>{{number}}
+        </view>
+        <view class='lianxiList' bindtap="phoneCall" data-phone="{{number}}">
+          <image src='../../images/phone.png'></image>
+          <text>公司电话：</text>{{number}}
+        </view>
+        <view class='lianxiList' bindtap="phoneCall" data-phone="{{number}}">
+          <image src='../../images/phone.png'></image>
+          <text>销售电话：</text>{{number}}
+        </view>
+        <view class='lianxiList' bindtap="phoneCall" data-phone="{{number}}">
+          <image src='../../images/dizhi.png'></image>
+          <text>地址：</text>江苏省南京市建邺区江东中路222号奥体中心科技楼7021室
+        </view>
+      </view>
+      <view wx:if="{{curIndex === 1}}">
+      <view class='messageTitle'>
+          <view></view>
+          <text>科嘉简介</text>
+          <view></view>
+        </view>
+        <view class='lianxiList1' data-phone="{{number}}">
+          　科嘉KE JIA是能够独立从事铝材生产加工，包括金属拉丝、进口砂银、镜面处理、木铝复合、木纹转印、电泳、金属喷涂着色等一体化的大型专业生产企业。在熔铸、挤压、高端表面处理上引进欧洲隔断墙行业的设计和技术并不断地进行优化改进，完善专业生产加工设备，使用机械化流水线生产，确保产品品质及供货周期。 科嘉KE JIA拥有自己的国际品牌，在美国及欧盟拥有自己的国际商标专利(图1-3)，在香港设有子公司负责外贸出口，在华北区(北京)、华东区(南京)设有大型生产加工基地，是国内隔断墙行业的领导者。
+
+　　科嘉KE JIA公司已通过ISO9001:2008质量管理体系认证，凭借优良的产品品质、现代化的生产加工流程以及完善的售后服务赢得了国内外市场良好的声誉和信赖，与众多国企、央企、上市公司、大型金融机构等已建立长期战略合作伙伴关系。
+
+　　公司旗下产品分为固定隔断及移动隔断，拥有数十种系列。科嘉时刻关注用户对空间运用不断变化的需求，锐意创新和精心制作，以满足用户多样化的个性需求，展现自己独特风格。
+        </view>
+　</view>
+      <view wx:if="{{curIndex === 2}}" >
+       <view class='messageTitle'>
+          <view></view>
+          <text>人才招聘</text>
+          <view></view>
+        </view>
+        <view class='lianxiList1' data-phone="{{number}}">
+          　——梦想与追求开始的地方
+
+　　但凡人，都是有追求的！
+　　我们庆幸可以生在这样一个时代，可以把自己的职业与追求联系起来！
+　　我们同样庆幸，今天，我们拥有了实现自己的梦想与追求的权力！
+　　先问问你自己，你的梦想与追求是什么？
+　　再问问你自己，你是否将永不言放弃？
+
+　　我们不知道你要加入的原因与理由，但我们知道自己加入的原因： 我们愿意看见自己所在的公司每年以几倍的速度进行增长；
+　　
+　　我们愿意与公司的每一个人平等而尊重的进行交流；
+　　我们愿意工作在一个真正具有人性魅力的公司；
+　　
+　　我们愿意用劳动所创造的财富提高生活的质量与乐趣；
+　　我们愿意自己对公司任何方面的建议都可以获得公司领导层的答复；
+　　我们愿意工作在舒适的环境。
+
+　　如果你有怀疑，没有关系，加入之前我们也有。不如给自己一个机会，尝试着来到这里追求你的理想；也给我们一个机会，欢迎更多的精英加入，因为...上天注定，我们隶属于同一群人，我们会是最棒的团队！
+        </view>
+      </view>
+    </view>
+  </view>
+
+</view>

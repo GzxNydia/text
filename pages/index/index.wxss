@@ -1,0 +1,39 @@
+/**index.wxss**/
+@import "../../component/new/new.wxss";
+@import "../../component/anli/anli.wxss";
+.home{
+  width: 100%;
+  position: relative;
+}
+.swiperBBox{
+  width: 100%;
+  position: relative;
+  background: #fff;
+}
+.swiperBBoxContent{
+  width: 86%;
+  margin: 0 auto;
+  height: 370rpx;
+  border-radius: 40rpx;
+  overflow: hidden;
+}
+.swiperBBoxContent image{
+  width: 100%;
+  height: 100%;
+  border-radius: 40rpx;
+}
+.swiperBBoxBg{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 220rpx;
+  border-radius: 0 0 35% 35%;
+  background: #25B6A6;
+}
+.messageBox{
+  padding: 20rpx;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}

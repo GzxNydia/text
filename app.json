@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/news/news",
+    "pages/gcDetail/gcDetail",
+    "pages/newsDetail/newsDetail",
+    "pages/lianxi/lianxi",
+    "pages/gongcheng/gongcheng"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "哈哈哈",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#333333",
+    "borderStyle": "white",
+    "backgroundColor": "#F7F7F7",
+    "selectedColor": "#25B6A6",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/tabbar/home.png",
+        "selectedIconPath": "images/tabbar/home1.png",
+        "text": "网站首页"
+      },
+      {
+        "pagePath": "pages/gongcheng/gongcheng",
+        "iconPath": "images/tabbar/menu.png",
+        "selectedIconPath": "images/tabbar/menu1.png",
+        "text": "工程案例"
+      },
+      {
+        "pagePath": "pages/news/news",
+        "iconPath": "images/tabbar/new.png",
+        "selectedIconPath": "images/tabbar/new1.png",
+        "text": "新闻动态"
+      },
+      {
+        "pagePath": "pages/lianxi/lianxi",
+        "iconPath": "images/tabbar/lianxi.png",
+        "selectedIconPath": "images/tabbar/lianxi1.png",
+        "text": "联系我们"
+      }
+    ]
+  }
+}

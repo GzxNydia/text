@@ -1,0 +1,15 @@
+<!--pages/newsDetail/newsDetail.wxml-->
+<view class='box'>
+  <!-- <image src='{{img}}'></image> -->
+  <view class='title'>全景圆弧玻璃隔断</view>
+  <view class='time'>发布日期：2019-01-01 11:11:11</view>
+  <view class='content'>
+    这是详情这是详情这是详情这是详情这是详情这是详情这是详情这是详情这是详情这是详情
+    这是详情这是详情这是详情这是详情这是
+    详情这是详情这是详情这是
+    <image src='{{img}}'></image>详情这是详情这是详情
+    这是详情这是详情这是详情这是详情这是详情这是详情这是详情这是详情这是详情这是详情
+    这是详情这是详情这是详情这是详情这是详情这是详情这是详情这是详情这是详情这是详情
+  </view>
+</view>
+
